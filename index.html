@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="Stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--The main container that houses the whole component-->
+  <div class="main-container">
+    <div class="container">
+      <h3>Your Result</h3>
+      <div class="circle">
+        <span class="figure1">76</span> <br/>
+        <span class="figure2">of 100</span>
+      </div>
+      <h2 class="result">Great</h2>
+      <p class="verdict">You scored higher than 65% of <br/>the people who have taken <br/>these tests.</p>
+    </div>
+    <div class="summary-container">
+      <div class="summary-visuals">
+        <h1>Summary</h1>
+        <div class="rows">
+          <div class="row1">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction icon" class="icon1">
+            <p class="row-word1">Reaction</p>
+            <p class="row-value1"><b class="row-value-score1">80 </b>/ 100</p>
+          </div>
+          <div class="row2">
+            <img src="assets/images/icon-memory.svg" alt="Memory icon" class="icon2">
+            <p class="row-word2">Memory</p>
+            <p class="row-value2"><b class="row-value-score2">92 </b>/ 100</p>
+          </div>
+          <div class="row3">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal icon" class="icon3">
+            <p class="row-word3">Verbal</p>
+            <p class="row-value3"><b class="row-value-score3">61 </b>/ 100</p>
+          </div>
+          <div class="row4">
+            <img src="assets/images/icon-visual.svg" alt="Visual icon" class="icon4">
+            <p class="row-word4">Visual</p>
+            <p class="row-value4"><b class="row-value-score4">72 </b>/ 100</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="continue-container">
+        <p><a href="https://www.google.com" class="continue-link">Continue</a></p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
